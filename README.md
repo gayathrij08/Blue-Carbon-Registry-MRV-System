@@ -1,115 +1,83 @@
-# 🌊 BlueCarbon Registry & MRV System
+Blue Carbon Registry & MRV System
+Blockchain-Based Blue Carbon Monitoring, Reporting & Verification Platform
 
-## Blockchain-Based Blue Carbon Registry, Monitoring, Reporting and Verification Platform
+A blockchain-based platform for managing Blue Carbon projects and supporting Monitoring, Reporting, and Verification (MRV) of environmental data and carbon credits.
 
-BlueCarbon Registry & MRV System is a blockchain-powered platform designed to improve the transparency, traceability, monitoring, reporting, and verification of blue carbon projects.
+The system aims to improve transparency, traceability, security, and verification in blue carbon ecosystems such as mangroves, seagrass meadows, salt marshes, and coastal wetlands.
 
-The platform provides a centralized interface for managing blue carbon initiatives such as mangrove restoration, seagrass conservation, and salt marsh protection while leveraging blockchain technology for secure carbon credit management and transaction tracking.
+🚀 Features
+🌱 Blue Carbon Project Management
+📜 Carbon Credit Registry
+⛓️ Blockchain-Based Verification
+📄 Smart Contract Integration
+📊 Monitoring, Reporting & Verification (MRV)
+🛰️ Satellite Data Integration
+🤖 AI & Machine Learning Analytics
+📡 IoT Sensor Monitoring
+💰 Carbon Credit Marketplace
+👛 Wallet Integration
+🔄 Transaction Tracking
+🔍 Audit Trail & Compliance Monitoring
+📈 Real-Time Monitoring Dashboard
+🛠️ Technology Stack
+Frontend
+Next.js
+React
+TypeScript
+Tailwind CSS
+Blockchain
+Solidity
+Smart Contracts
+Web3 Integration
+Data & Analytics
+Machine Learning
+Satellite Data Services
+IoT Integration
+Data Validation
+📁 Project Structure
+Blue-Carbon-Registry-MRV-System/
+│
+├── app/                    # Application pages and API routes
+├── components/             # React components and UI components
+├── contracts/              # Solidity smart contracts
+├── hooks/                  # Custom React hooks
+├── lib/                    # Services and business logic
+├── public/                 # Static assets
+├── styles/                 # Global styles
+│
+├── package.json
+├── next.config.mjs
+├── tailwind.config.ts
+└── tsconfig.json
+⛓️ Smart Contracts
 
----
+The project includes the following Solidity smart contracts:
 
-## 📌 Project Overview
+CarbonCredit.sol – Manages carbon credit records and related operations.
+CarbonCreditIssuer.sol – Handles the carbon credit issuance process.
+CarbonMarketplace.sol – Supports carbon credit marketplace operations and transactions.
+⚙️ Getting Started
+1. Clone the Repository
+git clone https://github.com/gayathrij08/Blue-Carbon-Registry-MRV-System.git
+2. Navigate to the Project
+cd Blue-Carbon-Registry-MRV-System
+3. Install Dependencies
+npm install
+4. Run the Development Server
+npm run dev
 
-Blue carbon ecosystems, including mangroves, seagrasses, and salt marshes, play a significant role in capturing and storing atmospheric carbon dioxide.
+Open the application in your browser:
 
-However, managing carbon projects and verifying carbon credits involves several challenges:
+http://localhost:3000
+🔮 Future Enhancements
+🔗 Live Blockchain Network Integration
+📦 IPFS-Based Decentralized Storage
+🛰️ Real Satellite Imagery Integration
+🤖 Advanced AI-Based Carbon Estimation
+📡 Real-Time IoT Sensor Connectivity
+🪙 Automated Carbon Credit Verification
+🌐 Multi-Chain Support
+🎨 Enhanced Analytics and Visualization
+🎯 Project Objective
 
-- Lack of transparency
-- Difficulty in tracking carbon credits
-- Manual verification processes
-- Fragmented environmental data
-- Limited auditability
-- Risk of duplicate or invalid carbon credits
-
-The BlueCarbon Registry & MRV System addresses these challenges by integrating:
-
-- 🌊 Blue Carbon Project Management
-- ⛓️ Blockchain Technology
-- 📊 Monitoring, Reporting and Verification
-- 🛰️ Satellite and Remote Sensing Data Integration
-- 🤖 Machine Learning Analytics
-- 📡 IoT Sensor Data
-- 💰 Carbon Credit Marketplace
-- 🔐 Smart Contract Verification
-- 👛 Digital Wallet Integration
-- 📋 Audit and Compliance Tracking
-
----
-
-# 🚀 Key Features
-
-## 🌱 Blue Carbon Project Registry
-
-Users can register and manage environmental projects involving:
-
-- Mangrove restoration
-- Seagrass conservation
-- Salt marsh protection
-- Coastal ecosystem restoration
-
-Each project can include environmental, geographical, beneficiary, and carbon-related information.
-
----
-
-## 📊 Monitoring, Reporting & Verification
-
-The platform supports a structured MRV workflow for monitoring project activities and validating environmental data.
-
-Features include:
-
-- Environmental data collection
-- Data aggregation
-- Automated validation
-- Verification workflows
-- Historical analysis
-- Audit trails
-- Compliance monitoring
-
----
-
-## 🛰️ Satellite & Remote Sensing Integration
-
-The system includes services designed for satellite imagery and environmental monitoring.
-
-Potential capabilities include:
-
-- Vegetation monitoring
-- Coastal ecosystem analysis
-- Biomass estimation
-- Change detection
-- Historical satellite analysis
-
----
-
-## 🤖 AI & Machine Learning Analytics
-
-Machine learning services are integrated to support environmental analysis.
-
-The platform includes modules for:
-
-- Biomass prediction
-- Anomaly detection
-- Environmental analytics
-- Carbon estimation
-- AI-assisted project analysis
-
----
-
-## ⛓️ Blockchain Integration
-
-Blockchain technology is used to improve the security and traceability of carbon-related records.
-
-The system includes smart contract modules for:
-
-- Carbon credit issuance
-- Carbon credit management
-- Marketplace transactions
-- Verification processes
-
-### Smart Contracts
-
-```text
-contracts/
-├── CarbonCredit.sol
-├── CarbonCreditIssuer.sol
-└── CarbonMarketplace.sol
+The objective of this project is to build a transparent and secure Blue Carbon Registry and MRV platform that can support the registration, monitoring, verification, and tracking of environmental projects and carbon credits using modern web technologies and blockchain-based systems.
