@@ -1,49 +1,67 @@
-Blue Carbon Registry & MRV System
-Blockchain-Based Blue Carbon Monitoring, Reporting & Verification Platform
+# 🌊 Blue Carbon Registry & MRV System
 
-A blockchain-based platform for managing Blue Carbon projects and supporting Monitoring, Reporting, and Verification (MRV) of environmental data and carbon credits.
+## Blockchain-Based Blue Carbon Monitoring, Reporting & Verification Platform
 
-The system aims to improve transparency, traceability, security, and verification in blue carbon ecosystems such as mangroves, seagrass meadows, salt marshes, and coastal wetlands.
+A blockchain-based platform for managing **Blue Carbon projects** and supporting **Monitoring, Reporting, and Verification (MRV)** of environmental data and carbon credits.
 
-🚀 Features
-🌱 Blue Carbon Project Management
-📜 Carbon Credit Registry
-⛓️ Blockchain-Based Verification
-📄 Smart Contract Integration
-📊 Monitoring, Reporting & Verification (MRV)
-🛰️ Satellite Data Integration
-🤖 AI & Machine Learning Analytics
-📡 IoT Sensor Monitoring
-💰 Carbon Credit Marketplace
-👛 Wallet Integration
-🔄 Transaction Tracking
-🔍 Audit Trail & Compliance Monitoring
-📈 Real-Time Monitoring Dashboard
-🛠️ Technology Stack
-Frontend
-Next.js
-React
-TypeScript
-Tailwind CSS
-Blockchain
-Solidity
-Smart Contracts
-Web3 Integration
-Data & Analytics
-Machine Learning
-Satellite Data Services
-IoT Integration
-Data Validation
-📁 Project Structure
+The system aims to improve **transparency, traceability, security, and verification** in blue carbon ecosystems such as **mangroves, seagrass meadows, salt marshes, and coastal wetlands**.
+
+---
+
+## 🚀 Features
+
+- 🌱 **Blue Carbon Project Management**
+- 📜 **Carbon Credit Registry**
+- ⛓️ **Blockchain-Based Verification**
+- 📄 **Smart Contract Integration**
+- 📊 **Monitoring, Reporting & Verification (MRV)**
+- 🛰️ **Satellite Data Integration**
+- 🤖 **AI & Machine Learning Analytics**
+- 📡 **IoT Sensor Monitoring**
+- 💰 **Carbon Credit Marketplace**
+- 👛 **Wallet Integration**
+- 🔄 **Transaction Tracking**
+- 🔍 **Audit Trail & Compliance Monitoring**
+- 📈 **Real-Time Monitoring Dashboard**
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+
+### Blockchain
+
+- **Solidity**
+- **Smart Contracts**
+- **Web3 Integration**
+
+### Data & Analytics
+
+- **Machine Learning**
+- **Satellite Data Services**
+- **IoT Integration**
+- **Data Validation**
+
+---
+
+## 📁 Project Structure
+
+```text
 Blue-Carbon-Registry-MRV-System/
 │
-├── app/                    # Application pages and API routes
-├── components/             # React components and UI components
-├── contracts/              # Solidity smart contracts
-├── hooks/                  # Custom React hooks
-├── lib/                    # Services and business logic
-├── public/                 # Static assets
-├── styles/                 # Global styles
+├── app/          # Application pages and layouts
+├── components/   # React components and UI
+├── contracts/    # Solidity smart contracts
+├── hooks/        # Custom React hooks
+├── lib/          # Services and business logic
+├── public/       # Static assets
+├── styles/       # Global styles
 │
 ├── package.json
 ├── next.config.mjs
@@ -53,9 +71,9 @@ Blue-Carbon-Registry-MRV-System/
 
 The project includes the following Solidity smart contracts:
 
-CarbonCredit.sol – Manages carbon credit records and related operations.
-CarbonCreditIssuer.sol – Handles the carbon credit issuance process.
-CarbonMarketplace.sol – Supports carbon credit marketplace operations and transactions.
+CarbonCredit.sol — Manages carbon credit records and related operations.
+CarbonCreditIssuer.sol — Handles the carbon credit issuance process.
+CarbonMarketplace.sol — Supports carbon credit marketplace operations and transactions.
 ⚙️ Getting Started
 1. Clone the Repository
 git clone https://github.com/gayathrij08/Blue-Carbon-Registry-MRV-System.git
@@ -77,7 +95,6 @@ http://localhost:3000
 📡 Real-Time IoT Sensor Connectivity
 🪙 Automated Carbon Credit Verification
 🌐 Multi-Chain Support
-🎨 Enhanced Analytics and Visualization
 🎯 Project Objective
 
-The objective of this project is to build a transparent and secure Blue Carbon Registry and MRV platform that can support the registration, monitoring, verification, and tracking of environmental projects and carbon credits using modern web technologies and blockchain-based systems.
+The objective of this project is to build a transparent, secure, and scalable Blue Carbon Registry and MRV platform that supports the registration, monitoring, verification, and tracking of environmental projects and carbon credits.
